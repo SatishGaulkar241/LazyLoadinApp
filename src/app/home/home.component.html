@@ -1,0 +1,56 @@
+<!-- <p>home works!</p>
+<input type="text" name="name" #id>
+<br><br>
+<button (click)="eventFun(id.value)"> Click</button>
+
+
+<br>
+<p>Your Comment is : {{myVariable}}</p>
+<hr>
+<p>Count</p>
+<button (click)="getCount('add')">++</button>
+<h2>{{count}}</h2>
+<br>
+<button (click)="getCount('sub')">--</button> -->
+
+
+<!-- 
+<div [ngSwitch]="color">
+<h1 *ngSwitchCase="'Red'">Red</h1>
+<h1 *ngSwitchCase="'Blue'">Blue</h1>
+<h1 *ngSwitchCase="'green'">Green</h1>
+<h1 *ngSwitchDefault>Default value</h1>
+</div> -->
+
+<!-- <button (click)="toggle()">Toogel</button>
+<div *ngIf="toggle_menu">
+    <ul *ngFor="let item of Dataarray">
+        <li>{{item.name}}</li>
+        <li>{{item.phone}}</li>
+        <ul *ngFor="let acc of item.social">
+        <li>{{acc}}</li>
+        </ul>
+    </ul>
+</div> -->
+<!-- 
+<p>Todo List</p>
+
+<input type="text" name="name" placeholder="Enter Your Comment" #taskid>
+<br>
+<button (click)="getTododata(taskid.value)">TodoList</button>
+
+<br>
+<ul *ngFor="let items of todoList">
+    <li>{{items}}</li>
+</ul> -->
+
+
+<h1>{{item}}</h1>
+
+<input type="text" placeholder="Enter Child Data" #childData>
+<button (click)="updateEventEmiter.emit(childData.value)">Click</button>
+
+
+<p>PiP in Angular</p>
+<h1>{{20 | userpip  :2 }}</h1>
+
